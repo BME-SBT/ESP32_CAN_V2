@@ -1,9 +1,0 @@
-Manufacturer=Eaton
-PartNumber=PTSAHT120624V050
-PartCategory=Resettable Fuse
-PackageCategory=Other
-PinCount=2
-Version=1.3
-Released=2022-07-12 03:54:57
-Downloaded=2026-02-15 14:11:32
-3D=Y
