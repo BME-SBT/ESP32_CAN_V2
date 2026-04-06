@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LCENA2520"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LCENA2520")
+        (spec "default")
+    )
+)

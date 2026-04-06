@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS25921ADR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS25921ADR" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "595-TPS25921ADR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS25921ADR?qs=m%2F7bTylgptfvwfVPRm0ALQ%3D%3D", "18V, 1.6A, 90m eFuse with Adjustable +/-2% Accurate Current Limit", "http://www.ti.com/lit/gpn/tps25921a", "1.75 mm"
+END_PART
+
+END.

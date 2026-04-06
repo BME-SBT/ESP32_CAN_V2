@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74HC595D'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Toshiba", "74HC595D" (!) = "", "SOIC127P600X175-16N", "Small Outline Packages", "757-74HC595D", "https://www.mouser.co.uk/ProductDetail/Toshiba/74HC595D?qs=7EBvPakHacViJoQmXKcnew%3D%3D", "Shift Register Single 8-Bit Serial to Serial/Parallel 16-Pin SOIC T/R", "https://toshiba.semicon-storage.com/info/docget.jsp?did=36768&prodName=74HC595D", "1.75 mm"
+END_PART
+
+END.
