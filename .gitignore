@@ -5,3 +5,4 @@ Project Outputs *
 *.DSNlck
 components/
 old_ESP32_CAN_V2.PcbDoc
+documentation/
