@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP PTSAHT120624V050
-D Resettable Fuses - PPTC PTSAHT1206 0.5A, 24V
-K
-F https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ptsaht1206-automotive-surface-mount-resettable-fuse-data-sheet-elx1045-en.pdf
-$ENDCMP
-#
-#End Doc Library

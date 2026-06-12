@@ -1,9 +1,0 @@
-Manufacturer=Toshiba
-PartNumber=74HC595D
-PartCategory=Integrated Circuit
-PackageCategory=Small Outline Packages
-PinCount=16
-Version=2.1
-Released=2020-09-02 04:50:06
-Downloaded=2026-01-12 21:44:25
-3D=Y
