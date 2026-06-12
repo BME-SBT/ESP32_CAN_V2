@@ -253,6 +253,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CXCSWQEQ
 
+[Document13]
+DocumentPath=ESP32_CAN_V2.2.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SUMYJNSF
+
+[Document14]
+DocumentPath=CAN_gerber.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
@@ -262,146 +296,290 @@ DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=AISLER\ODB\odb\steps\pcb\eda\data
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for ESP32_CAN_V2\Design Rule Check - ESP32_CAN_V2.html
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.EXTREP
+DocumentPath=AISLER\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBL
+DocumentPath=AISLER\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBO
+DocumentPath=Project Outputs for ESP32_CAN_V2\Design Rule Check - ESP32_CAN_V2.html
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBP
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBS
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GM
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTL
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTO
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTP
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GM
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTS
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.REP
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=AISLER\ODB\ESP32_CAN_V2.1.zip
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_layer\features
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_paste\features
+DocumentPath=AISLER\ODB\ESP32_CAN_V2.1.zip
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_solder\features
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_top\features
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_1\features
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_2\features
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_3\features
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GM
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_layer\features
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_overlay\features
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_paste\features
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.REP
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_solder\features
+DocumentPath=AISLER\ODB\ESP32_CAN_V2.2.zip
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=AISLER\ODB\odb\matrix\matrix
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=MessageListReport.html
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_overlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=AISLER\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_paste\features
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=AISLER\ODB\odb\steps\pcb\profile
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_solder\features
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=AISLER\ODB\odb\steps\pcb\stephdr
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_bot\features
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
 [GeneratedDocument38]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_2\features
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_3\features
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_2\features
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_3\features
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=AISLER\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=AISLER\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=MessageListReport.html
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=AISLER\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=AISLER\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=AISLER\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=AISLER\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=AISLER\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=AISLER\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
+[GeneratedDocument74]
 DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
 DItemRevisionGUID=
 
