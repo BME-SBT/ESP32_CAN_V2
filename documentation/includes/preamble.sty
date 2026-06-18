@@ -1,0 +1,257 @@
+%--------------------------------------------------------------------------------------
+% Betűtípus
+%--------------------------------------------------------------------------------------
+% %ez az alap               % Latin Modern
+%\usepackage{dejavu}
+%\usepackage{kpfonts}        % Palatino Linotype alternatíva
+% \usepackage{libertine}    % Times New Roman alternatíva
+% egyéb fontok: https://tug.org/FontCatalogue/
+
+% Packages
+\usepackage[english,magyar]{babel}      % Alapértelmezés szerint utoljára definiált 
+% nyelv lesz aktív, de később külön beállítjuk 
+% az aktív nyelvet.
+
+
+%\usepackage{cmap}
+\usepackage{amsfonts,amsmath,amssymb}   % Matematikai szimbólumok
+\usepackage{graphicx}
+
+\usepackage[a4paper]{geometry}                   % Margók
+\usepackage{setspace}                   % Sorköz
+\usepackage{booktabs}                   % Jó táblázatok
+\usepackage{fancyhdr}                   % Jó élőfejek
+
+\usepackage[unicode]{hyperref}          % Linkek
+\usepackage{xcolor}                     % Syntax highlihting
+\usepackage{listings}                   % Forráskódokhoz
+\usepackage[hang]{caption}              % Jobb képfeliratok
+\usepackage[numbers]{natbib}            % Bibliográfia stílus
+\usepackage{xspace}                     % Helykihagyás
+\usepackage{pdfpages}					% Teljes PDF oldalak beillesztése
+\usepackage{siunitx}					% Mértékegységek
+\RequirePackage{ifthen}						% LaTeX boolean 
+\RequirePackage{etoolbox}
+\usepackage{float}						% Képek és táblázatok forced elhelyezése H-val
+\usepackage{import}
+\RequirePackage{pdflscape}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+
+% Karakterkódolás beállítása (xetex - lualatex és pdflatex külön kezelve)
+% http://tex.stackexchange.com/a/47579/71109
+\usepackage{ifxetex}
+\usepackage{ifluatex}
+\newif\ifxetexorluatex % a new conditional starts as false
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi>0
+\xetexorluatextrue
+\fi
+
+\ifxetexorluatex
+\usepackage{fontspec}
+\else
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[lighttt]{lmodern}
+\fi
+
+%--------------------------------------------------------------------------------------
+% Változók
+%--------------------------------------------------------------------------------------
+
+\newcommand{\AuthorList}{%
+	\authorA%
+	\ifdefempty{\authorB}{}{, \authorB}%
+	\ifdefempty{\authorC}{}{, \authorC}%
+	\ifdefempty{\authorD}{}{, \authorD}%
+}
+\author{\AuthorList}
+
+
+%--------------------------------------------------------------------------------------
+% Oldal layout
+%--------------------------------------------------------------------------------------
+% we need to redefine the pagestyle plain
+% another possibility is to use the body of this command without \fancypagestyle
+% and use \pagestyle{fancy} but in that case the special pages
+% (like the ToC, the References, and the Chapter pages)remain in plane style
+
+
+
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\pagenumbering{arabic}  
+
+%% Margók és lapelrendezés------------------------------------------------------------
+\makeatletter
+\if@twoside%
+\geometry{inner=30mm, outer=20mm, top=5mm, bottom=30mm, includeheadfoot}
+\else%
+\geometry{inner=20mm, outer=20mm, top=5mm, bottom=30mm, includeheadfoot}
+\fi%  
+\makeatother
+
+%% fejléc és lábléc--------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{} % clear all footer fields
+\setlength\headheight{54pt} % resolve header warning
+\fancyhead[RO,LE]{\includegraphics[height=1.5cm]{includes/BME-SolarBoat-logo}}
+\fancyhead[RE,LO]{\title\ -- \the\year{}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\makeatletter
+\if@twoside%
+\fancyfoot[LE,RO]{\thepage}
+\else%
+\fancyfoot[C]{\thepage}
+\fi%  
+\makeatother
+
+%--------------------------------------------------------------------------------------
+% Szövegbeállítások
+%--------------------------------------------------------------------------------------
+
+\onehalfspacing                 % másfeles sorköz
+%\singlespacing					% (egyszeres sorköz)
+\setlength{\parindent}{0em}     % bekezdés behúzás mértéke (magyaros: 2em, angolos: 0)
+\setlength{\parskip}{8pt}       % bekezdések közti térköz
+\frenchspacing                  % mondatok közt is csak 1 "szóköznyi" kihagyás legyen
+
+% Ha inkább angol beállítások kellenek:
+% \selectlanguage{english}
+% \setlength{\parindent}{0em}
+% \setlength{\parskip}{0.5em}
+% \nonfrenchspacing
+% \renewcommand{\figureautorefname}{Figure}
+% \renewcommand{\tableautorefname}{Table}
+% \renewcommand{\partautorefname}{Part}
+% \renewcommand{\chapterautorefname}{Chapter}
+% \renewcommand{\sectionautorefname}{Section}
+% \renewcommand{\subsectionautorefname}{Section}
+% \renewcommand{\subsubsectionautorefname}{Section}
+
+
+\sloppy                                 % Margón túllógó sorok tiltása.
+\widowpenalty=10000 \clubpenalty=10000  % A fattyú- és árvasorok elkerülése
+\def\hyph{-\penalty0\hskip0pt\relax}    % Kötőjeles szavak elválasztásának engedélyezése
+
+
+%--------------------------------------------------------------------------------------
+% Bibliográfia stílusa
+%--------------------------------------------------------------------------------------
+\bibliographystyle{includes/huplain}
+
+
+%--------------------------------------------------------------------------------------
+% Linkek és pdf címkék (hyperref)
+%--------------------------------------------------------------------------------------
+\hypersetup{
+	% bookmarks=true,               % show bookmarks bar?
+	unicode=true,                   % non-Latin characters in Acrobat's bookmarks
+	%pdftitle={\title},                % title
+	pdfauthor={\AuthorList},           % author
+	pdfsubject={},                  % subject of the document
+	pdfcreator={},                  % creator of the document
+	pdfproducer={},                 % producer of the document
+	pdfkeywords={},                 % list of keywords (separate then by comma)
+	pdfnewwindow=true,              % links in new window
+	colorlinks=true,                % false: boxed links; true: colored links
+	linkcolor=black,                % color of internal links
+	citecolor=black,                % color of links to bibliography
+	filecolor=black,                % color of file links
+	urlcolor=black                  % color of external links
+}
+
+
+
+%--------------------------------------------------------------------------------------
+% Saját parancsok
+%--------------------------------------------------------------------------------------
+\newcommand{\code}[1]{{\upshape\ttfamily\scriptsize\indent #1}}
+% A hivatkozások közt így könnyebb DOI-t megadni: \doi{xxxx.yyyy}
+\newcommand{\doi}[1]{DOI: \href{http://dx.doi.org/\detokenize{#1}}{\raggedright{\texttt{\detokenize{#1}}}}}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator{\sign}{sgn}
+\DeclareMathOperator{\rot}{rot}
+
+%--------------------------------------------------------------------------------------
+% Képaláírás stílusa
+%--------------------------------------------------------------------------------------
+\captionsetup[figure]{
+	width=.75\textwidth,
+	aboveskip=10pt}
+
+\renewcommand{\captionlabelfont}{\it}
+\renewcommand{\captionfont}{\footnotesize\it}
+
+%--------------------------------------------------------------------------------------
+% Elválasztás kivételei
+%--------------------------------------------------------------------------------------
+%\hyphenation{Shakes-peare Mar-seilles ár-víz-tű-rő tü-kör-fú-ró-gép}
+
+
+% ==================== CODE HIGHLIGHTING ====================
+\RequirePackage{listings}            % Code listing support
+\RequirePackage{xcolor}              % Color support for code
+\definecolor{lightgray}{rgb}{0.95,0.95,0.95}
+\RequirePackage{listingsutf8}
+
+% Define C code environment with syntax highlighting
+\lstdefinestyle{cstyle}{
+	language=C,
+	basicstyle=\ttfamily\small,
+	keywordstyle=\color{blue}\bfseries,
+	commentstyle=\color{green!60!black}\itshape,
+	stringstyle=\color{red},
+	numberstyle=\footnotesize\color{gray},
+	numbers=left,
+	numbersep=8pt,
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3,
+	showstringspaces=false,
+	captionpos=b,
+	showstringspaces=false, % no special string spaces
+	aboveskip=3pt,
+	belowskip=3pt,
+	backgroundcolor=\color{lightgray},
+	columns=flexible,
+	keepspaces=true,
+	escapeinside={(*@}{@*)},
+	frame=single,
+	float=!ht,
+	literate=*
+	{á}{{\'a}}1	{é}{{\'e}}1	{í}{{\'i}}1	{ó}{{\'o}}1	{ö}{{\"o}}1	{ő}{{\H{o}}}1	{ú}{{\'u}}1	{ü}{{\"u}}1	{ű}{{\H{u}}}1
+	{Á}{{\'A}}1	{É}{{\'E}}1	{Í}{{\'I}}1	{Ó}{{\'O}}1	{Ö}{{\"O}}1	{Ő}{{\H{O}}}1	{Ú}{{\'U}}1	{Ü}{{\"U}}1	{Ű}{{\H{U}}}1,
+	extendedchars=true,     % ← fontos!
+	inputencoding=utf8
+}
+
+% Create custom environment for C code
+\lstnewenvironment{ccode}[1][]{
+	\lstset{style=cstyle, #1}
+}{}
+
+% ==================== MULTIPLE COLUMNS ====================
+\RequirePackage{multicol}            % Multi-column text layout
+
+% ==================== TABLES ====================
+\RequirePackage{booktabs}            % Professional-looking tables
+\RequirePackage{tabularx}            % Tables with adjustable column widths
+\RequirePackage{longtable}           % Multi-page tables
+\RequirePackage{multirow}            % Cells spanning multiple rows
+
+% ==================== TIKZ AND CIRCUITS ====================
+\RequirePackage{tikz}                % Drawing diagrams
+\RequirePackage[european]{circuitikz} % Circuit diagrams with European symbols
+
+% Load useful TikZ libraries
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric, calc}
+
+% ==================== Multicols beállítások =================
+\newenvironment{multicolss}[2][1pt]
+{\setlength{\columnseprule}{#1}\begin{multicols}{#2}}
+	{\end{multicols}\setlength{\columnseprule}{0pt}} % kikapcsoljuk a vonalat

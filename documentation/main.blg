@@ -1,0 +1,109 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: includes/huplain.bst
+A level-1 auxiliary file: ./includes/cimoldal.aux
+Illegal, another \bibstyle command---line 37 of file main.aux
+ : \bibstyle
+ :          {plain}
+I'm skipping whatever remains of this command
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: includes/bibliografia.bib
+You're missing a field name---line 23 of file includes/bibliografia.bib
+ : 
+ : % author    = {Jennifer Harbaugh},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 43 of file includes/bibliografia.bib
+ : 
+ : % author    = {Ferenc Wettl and Gyula Mayer and Péter Szabó},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 59 of file includes/bibliografia.bib
+ : 
+ : % author       = {James C. Candy},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 85 of file includes/bibliografia.bib
+ : 
+ : % author    = {Wai L. Lee and Charles G. Sodini},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "Jeney2014" isn't style-file defined
+--line 107 of file includes/bibliografia.bib
+You're missing a field name---line 109 of file includes/bibliografia.bib
+ : 
+ : % author      = {Jeney Gábor},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author/key/name in Lee1987
+Warning--to sort, need author/key/name in Nasa
+Warning--to sort, need author/key/name in Jeney2014
+Warning--to sort, need author, editor, or key in Wettl2004
+Warning--to sort, need author/key/name in Cindy1986
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty author in Lee1987
+Warning--empty title in Lee1987
+Warning--empty booktitle in Lee1987
+Warning--empty year in Lee1987
+Warning--empty author and editor in Wettl2004
+`title' is a missing field, not a string, for entry Wettl2004
+while executing---line 3749 of file includes/huplain.bst
+Warning--empty title in Wettl2004
+Warning--empty year in Wettl2004
+Warning--empty publisher in Wettl2004
+Warning--empty author in Cindy1986
+Warning--empty title in Cindy1986
+Warning--empty journal in Cindy1986
+Warning--empty year in Cindy1986
+You've used 5 entries,
+            4991 wiz_defined-function locations,
+            1128 strings with 11513 characters,
+and the built_in function-call counts, 1699 in all, are:
+= -- 100
+> -- 5
+< -- 0
++ -- 5
+- -- 0
+* -- 147
+:= -- 186
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 10
+chr.to.int$ -- 0
+cite$ -- 22
+duplicate$ -- 87
+empty$ -- 214
+format.name$ -- 0
+if$ -- 327
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 6
+newline$ -- 111
+num.names$ -- 0
+pop$ -- 77
+preamble$ -- 1
+purify$ -- 10
+quote$ -- 22
+skip$ -- 83
+stack$ -- 0
+substring$ -- 81
+swap$ -- 20
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 23
+warning$ -- 17
+while$ -- 11
+width$ -- 6
+write$ -- 113
+(There were 7 error messages)

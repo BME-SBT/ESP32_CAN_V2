@@ -49,6 +49,11 @@ CrossRefFollowFromMainSettings=1
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=1
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=[OutputPath][ProjectName].zip
+
 [Document1]
 DocumentPath=ESP32_CAN_V2-main.SchDoc
 AnnotationEnabled=1
@@ -203,23 +208,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=old_ESP32_CAN_V2.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WXRDJRIV
-
-[Document11]
 DocumentPath=ESP32_CAN_V2-main.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,8 +224,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
-DocumentPath=ESP32_CAN_V2.PcbDoc
+[Document11]
+DocumentPath=..\..\..\Altium\push-to-aisler-odb.Outjob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -251,10 +239,274 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=XFSFPKII
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=ESP32_CAN_V2.2.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CXCSWQEQ
+
+[Document13]
+DocumentPath=ESP32_CAN_V2.2.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SUMYJNSF
+
+[Document14]
+DocumentPath=CAN_gerber.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document15]
+DocumentPath=ESP32_CAN_V2.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [GeneratedDocument1]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=AISLER\ODB\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Design Rule Check - ESP32_CAN_V2.html
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GM
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Free Documents\Gerber\ESP32_CAN_V2.1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=AISLER\ODB\ESP32_CAN_V2.1.zip
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GM
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for ESP32_CAN_V2\Gerber\ESP32_CAN_V2.2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=AISLER\ODB\ESP32_CAN_V2.2.zip
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_2\features
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\dielectric_3\features
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=AISLER\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument45]
 DocumentPath=MessageListReport.html
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=AISLER\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=AISLER\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=AISLER\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=AISLER\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -266,6 +518,26 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -968,6 +1240,16 @@ Type158=1
 Type159=1
 Type160=1
 Type161=1
+Type162=1
+Type163=1
+Type164=1
+Type165=1
+Type166=1
+Type167=1
+Type168=1
+Type169=1
+Type170=1
+Type171=1
 
 [Difference Levels]
 Type1=1
@@ -1058,6 +1340,13 @@ Type85=1
 Type86=1
 Type87=1
 Type88=1
+Type89=1
+Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1301,4 +1590,7 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[Parameter Manager Custom Column Order]
+<Schematic>=Availability,Check_prices,Copyright,Datasheet,"Datasheet Link",Geometry.Height,Manufacturer_Part_Number,ki_description,ki_keywords,Manufacturer_Name,MF,"Mouser Part Number","Mouser Price/Stock",MP,Package,Price,Purchase-URL,RefDes,Reference,SnapEDA_Link,Supplier,Type,Value
 

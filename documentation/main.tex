@@ -1,0 +1,79 @@
+%--------------------------------------------------------------------------------------
+% Dokumentum formátuma
+%--------------------------------------------------------------------------------------
+\documentclass[12p, oneside]{article} %oneside vagy twoside opció a nyomtatáshoz
+
+
+
+%--------------------------------------------------------------------------------------
+% Inicializáció (valószínűleg nem kell hozzányúlni)
+%--------------------------------------------------------------------------------------
+% Csomagok betöltése
+%\input{includes/packages}
+
+
+
+%TODO változók beállításai
+
+% szerzők:
+\def\authorA{Fináczy Balázs}
+\def\authorB{}
+\def\authorC{}
+\def\authorD{}
+
+\def\title{CAN hardware}
+\def\subtitle{}
+
+% LaTeX és csomagok beállításai
+\usepackage{./includes/preamble}
+
+\begin{document}
+	
+	% Oldalak számozása
+	
+	% Címoldal
+	\include{./includes/cimoldal}
+	
+	% Tartalomjegyzék
+	\thispagestyle{plain}
+	\tableofcontents\vfill
+	\setcounter{page}{2}
+	\pagebreak
+	
+%	\subimport{./content/}{alkatreszlista}
+	
+	\iflanguage{hungarian}{
+		\subimport{./content/}{chapter1}
+		\subimport{./content/}{chapter2}
+		\subimport{./content/}{alkatreszlista}
+		\subimport{./content/}{osszefog}
+	}{
+		%\subimport{./content/}{chapter1 - Copy.tex}
+	}
+	
+	
+		%--------------------------------------------------------------------------------------
+	% Bibliográfia
+	%--------------------------------------------------------------------------------------
+	%\newpage
+	%\addcontentsline{toc}{section}{
+	%	\iflanguage{hungarian}{
+	%		Hivatkozások
+	%	}{
+	%		References
+	%	}
+	%}
+	%{\footnotesize \bibliography{./includes/bibliografia.bib}}
+	%\bibliographystyle{plain}
+	%\bibliography{includes/bibliografia.bib}
+	
+	%--------------------------------------------------------------------------------------
+	% Mellékletek
+	%--------------------------------------------------------------------------------------
+	%\appendix
+	%\addcontentsline{toc}{section}{Mellékletek}
+	
+	%\section{Kapcsolási rajzok}
+	
+	
+\end{document}

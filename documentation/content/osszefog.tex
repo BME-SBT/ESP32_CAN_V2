@@ -1,0 +1,8 @@
+\pagebreak
+\section{Tesztelés és Értékelés}
+
+Az elő példány felélsztése után több problémába is sikerült beleütközni. Első egy méretezési hiba volt, ami miatt a tápot első körben leválasztó e-fuse már egészen alacsony feszültségszint esetén lekapcsolt. Emiatt az R10-es ellenállást $47\si{\Ohm}$-ról $470\si{\kilo\Ohm}$-ra cseréltük, ez után az első számú hiba megszűnt. Mivel lecsapott a biztosíték, így a feszültségkonverzió se ment, vagyis se nem volt a CAN-buszhoz szükséges 5V0, illetve az MCU-t működtető 3V3 feszültségszintek.
+
+Az előbbi hiba javítását követően egy másik probléma volt a CAN-izolátor túlzott melegedése, valamint nem kapott megfelelő bemenő feszültséget a szekunder oldalon. Ez mint utóbb kiderült azért volt, mert a szekunder oldalára szolgáltató 5V0-t leválasztó DCDC csatoló nem volt helyesen bekötve, felcserélésre került két pin, ami miatt nem működött az előírásnak megfelelően.  Az előbbi hiba kijavítása után az áramkör hiba nélkül működött.
+
+A fentebbi hibák már javításra kerültek az áramköri terven, még a PCB-tervet kell kiigazítani ennek megfelelően. Emellett egy újabb verzióra a tápkör is átalakításra kerül, amely szorosabban fog ragaszkodni a különböző referencia design-okhoz. Emellett a különböző feszültségek indikátor LED-einek az előtétellenállásait is nagyobbra fogjuk méretezni. Jelen pillanatban a probléma velük akövetkező: nagyon a határérték közelébe lettek számolva az értékeik, így a LED-ek maximális, vagy akár túlzott teljesítményt disszipálnak. Mivel a disszipált mennyiség csak minimálisan haladja meg a megengedett értéket, emiatt a LED-ek nem mennek azonnal tönkre, azonban több óra működés után szemmel láthatóan kezd egyre haloványabb lenni a fényük.
