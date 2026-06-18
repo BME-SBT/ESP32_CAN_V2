@@ -3,3 +3,12 @@ History/
 * Logs*
 Project Outputs *
 *.DSNlck
+components/
+old_ESP32_CAN_V2.PcbDoc
+documentation/
+ESP32_CAN_V2.PcbDoc
+ESP32_CAN_V2.1.PcbDoc
+Job1pdf.OutJob
+hardware/Out/
+hardware/AISLER/
+hardware/AISLER/Status Report.Txt
